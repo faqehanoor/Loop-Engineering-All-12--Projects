@@ -1,0 +1,6 @@
+.env
+api_token.txt
+checker_token.txt
+state.json
+output/
+transcripts/

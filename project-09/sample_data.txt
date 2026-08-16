@@ -1,0 +1,7 @@
+Project 09 - Sample Data
+
+This file exists for the successful run drill.
+
+Line 3: The quick brown fox jumps over the lazy dog.
+Line 4: Python is a great language for automation.
+Line 5: Loops are fundamental to routine tasks.

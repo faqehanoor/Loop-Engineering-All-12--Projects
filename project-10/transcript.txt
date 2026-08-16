@@ -1,0 +1,25 @@
+============================================================
+SECRET CHECK TRANSCRIPT
+============================================================
+Timestamp:  2026-08-17T00:26:57.627730
+Mode:       env_var
+Status:     COMPLETED
+------------------------------------------------------------
+
+ATTEMPT: Read token from environment variable
+
+Token source: environment variable
+Token value:  DUMMY_TOKEN_12345
+
+Verification: Token verified successfully
+
+------------------------------------------------------------
+TASK RESULT: SUCCESS
+The token was obtained and verified.
+
+KEY LESSON:
+Gitignored files never reach GitHub, so a fresh cloud
+clone does not contain them. Secrets required by a
+cloud routine must be supplied through environment
+variables, not by relying on a local .env file.
+============================================================

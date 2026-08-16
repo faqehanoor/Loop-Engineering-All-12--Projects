@@ -1,0 +1,27 @@
+============================================================
+SECRET CHECK TRANSCRIPT
+============================================================
+Timestamp:  2026-08-17T00:26:37.647731
+Mode:       env_file
+Status:     COMPLETED
+------------------------------------------------------------
+
+ATTEMPT: Read token from local .env file
+
+Token source: local .env file
+Error:        .env file not found
+
+Verification: SKIPPED (no token to verify)
+
+------------------------------------------------------------
+TASK RESULT: FAILURE
+The local .env file was not available.
+This is expected in a fresh cloud clone because
+gitignored files are never pushed to GitHub.
+
+KEY LESSON:
+Gitignored files never reach GitHub, so a fresh cloud
+clone does not contain them. Secrets required by a
+cloud routine must be supplied through environment
+variables, not by relying on a local .env file.
+============================================================

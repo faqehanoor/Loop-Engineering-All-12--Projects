@@ -1,0 +1,15 @@
+============================================================
+ROUTINE TRANSCRIPT
+============================================================
+Timestamp:  2026-08-17T00:23:53.529448
+Target:     missing-file-that-does-not-exist.txt
+Status:     COMPLETED
+------------------------------------------------------------
+
+TASK RESULT: FAILURE
+
+  Error:    [Errno 2] No such file or directory: 'missing-file-that-does-not-exist.txt'
+
+------------------------------------------------------------
+Infrastructure status: GREEN (routine completed without crash)
+============================================================
